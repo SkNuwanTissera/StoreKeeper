@@ -180,7 +180,7 @@ public class ApplicationController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         imgMenuBtn.setImage(menuImage);
-        Image usrImg = new Image("/image/rifat.jpg");
+        Image usrImg = new Image("/image/user.png");
 
         imgUsrTop.setFill(new ImagePattern(usrImg));
         circleImgUsr.setFill(new ImagePattern(usrImg));

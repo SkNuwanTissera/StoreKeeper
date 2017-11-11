@@ -35,7 +35,7 @@ public class StoreKeeper extends Application {
             Parent root = FXMLLoader.load(getClass().getResource("/view/Login.fxml"));
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
-            primaryStage.setTitle("Welcome to StoreKeeper -Login");
+            primaryStage.setTitle("Welcome to HexSpeak -Login");
             primaryStage.getIcons().add(new Image("/image/icon.png"));
             primaryStage.setMaximized(false);
             primaryStage.setMinHeight(500.0);

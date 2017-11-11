@@ -145,7 +145,7 @@ public class ViewEmployeController implements Initializable {
     @FXML
     private Label lblCreator;
 
-    Image usrImg = new Image("/image/rifat.jpg");
+    Image usrImg = new Image("/image/user.png");
 
     public userNameMedia getNameMedia() {
         return nameMedia;

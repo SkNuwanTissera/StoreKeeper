@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="457.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dataBase.ServerController">
+<AnchorPane id="AnchorPane" prefHeight="457.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dataBase.ServerController">
    <children>
       <BorderPane layoutX="200.0" layoutY="100.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
@@ -30,6 +30,11 @@
          <center>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
+                  <HBox prefHeight="357.0" prefWidth="243.0">
+                     <children>
+                        <Label prefHeight="28.0" prefWidth="243.0" text="HexSpeak Procurement Management System" />
+                     </children>
+                  </HBox>
                   <GridPane prefHeight="300.0" prefWidth="332.0">
                     <columnConstraints>
                       <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="156.0" minWidth="10.0" prefWidth="135.0" />
